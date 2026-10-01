@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SmartOnline — discover useful products on Amazon India, curated for everyday life." />
+  <title>SmartOnline — Smart finds. Better buys.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#"><span class="brand-mark">S</span><span>SmartOnline</span></a>
+      <nav>
+        <a href="#categories">Categories</a>
+        <a href="#popular">Popular</a>
+        <a href="#why">Why SmartOnline</a>
+      </nav>
+      <a class="nav-cta" href="#popular">Explore products</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">CURATED AMAZON FINDS</p>
+          <h1>Smart finds.<br><span>Better buys.</span></h1>
+          <p class="hero-text">We find useful products worth knowing about — so you can spend less time searching and more time choosing.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#popular">Explore picks <span>→</span></a>
+            <a class="text-link" href="#categories">Browse categories</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Hand-picked</span>
+            <span>✓ Useful products</span>
+            <span>✓ Amazon links</span>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="floating-card card-main">
+            <div class="product-visual visual-home">⌂</div>
+            <div><small>Today's pick</small><strong>Everyday essentials</strong></div>
+            <span class="arrow">↗</span>
+          </div>
+          <div class="floating-card card-small">
+            <span class="mini-icon">★</span><div><strong>Curated picks</strong><small>Made for everyday life</small></div>
+          </div>
+          <div class="hero-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="section categories">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">SHOP BY NEED</p><h2>Find something useful.</h2></div>
+          <p>Simple categories. Practical products. No endless scrolling.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#popular" data-category="Home & Kitchen"><span class="category-icon">⌂</span><strong>Home & Kitchen</strong><small>Everyday upgrades</small><span>→</span></a>
+          <a class="category-card" href="#popular" data-category="Gadgets"><span class="category-icon">◉</span><strong>Gadgets</strong><small>Useful tech & accessories</small><span>→</span></a>
+          <a class="category-card" href="#popular" data-category="Travel"><span class="category-icon">✈</span><strong>Travel</strong><small>Pack smarter</small><span>→</span></a>
+          <a class="category-card" href="#popular" data-category="Lifestyle"><span class="category-icon">✦</span><strong>Lifestyle</strong><small>Small things, better days</small><span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="popular" class="section products-section">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">POPULAR PICKS</p><h2>Worth a closer look.</h2></div>
+          <div class="filters"><button class="filter active" data-filter="All">All</button><button class="filter" data-filter="Home & Kitchen">Home</button><button class="filter" data-filter="Gadgets">Gadgets</button><button class="filter" data-filter="Travel">Travel</button></div>
+        </div>
+        <div id="productGrid" class="product-grid"></div>
+      </div>
+    </section>
+
+    <section id="why" class="section why">
+      <div class="container why-grid">
+        <div><p class="eyebrow">WHY SMARTONLINE</p><h2>Less noise.<br>More useful finds.</h2></div>
+        <div class="why-list">
+          <article><span>01</span><div><h3>Curated, not crowded</h3><p>We focus on products that solve a real everyday problem instead of filling pages with random listings.</p></div></article>
+          <article><span>02</span><div><h3>Easy to compare</h3><p>Clear product information helps you decide whether something is worth opening on Amazon.</p></div></article>
+          <article><span>03</span><div><h3>Built for India</h3><p>Our picks are designed around practical needs, budgets and shopping habits in India.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <div><p class="eyebrow">SMARTER SHOPPING</p><h2>Good products, without the overwhelm.</h2></div>
+        <a class="button light" href="#popular">See today's picks →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><a class="brand" href="#"><span class="brand-mark">S</span><span>SmartOnline</span></a><p>Independent product discovery for smarter everyday shopping.</p><span>© 2026 SmartOnline</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
