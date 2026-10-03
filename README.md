@@ -1,27 +1,28 @@
 # SmartOnline
 
-A clean, static product-discovery website for Amazon-focused affiliate marketing.
+Static Amazon-focused product discovery site for `skvijay052/smartonline`.
 
-## Current stage
+## Current version
 
-This is intentionally **static** while Amazon Associates approval/API access is pending.
+- Responsive homepage
+- Product categories and filters
+- 9 curated demo products
+- 4 original buying-guide articles
+- About section
+- Affiliate disclosure placeholder
+- Privacy Policy and Contact pages
+- No Amazon API credentials in the repository
+- No unapproved Amazon affiliate tags
+- Current product buttons point to Amazon India and should be replaced with approved Associate links after approval
 
-- No Amazon API credentials are stored in the repo.
-- Product cards currently use demo/curated content.
-- “View on Amazon” currently points to the Amazon India homepage.
-- Replace the product data and links with approved Amazon Associate links once the account is active.
-- The layout is designed so the static catalog can later be replaced by Amazon API/Creators API data without changing the visual system.
+## Amazon approval preparation
 
-## Run locally
+The site is intentionally static while Amazon Associates/API access is pending. Before using Amazon Associates links, add the required Amazon Associate disclosure and replace demo product information with accurate retailer information. Do not claim live prices, ratings or availability unless the information is obtained and displayed according to Amazon's current program rules.
 
-Open `index.html` directly, or serve the folder with any static web server.
+## Future upgrade
+
+After Amazon Associates approval, the visual catalog can be connected to Amazon's permitted product-data tools/Creators API or Product Advertising API. Credentials must remain server-side and never be committed to GitHub.
 
 ## Deployment
 
-This repository is suitable for Netlify, Vercel static hosting, GitHub Pages, or any standard static host.
-
-## Brand direction
-
-SmartOnline: **Smart finds. Better buys.**
-
-The design intentionally avoids marketplace-clone styling and focuses on curated product discovery, useful categories, clean typography and strong mobile responsiveness.
+This repository can be hosted on Netlify, Vercel static hosting, GitHub Pages, or another static host. It can also be served from a path such as `https://softtech.in/smartonline` if the domain/server is configured to map that path to this site.
